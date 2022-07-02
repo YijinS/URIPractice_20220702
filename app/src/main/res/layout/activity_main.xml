@@ -50,6 +50,21 @@
         android:maxLines="1"
         android:inputType="textPassword"
         android:imeOptions="actionDone" />
-
 <!--    singleline을 사용하면 입력 후 엔터 질때 밑으로 안내려감-->
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="로그인"/>
+
+<!--    match_parent : parent 사이즈에 맞게 꽉차게
+    wrap_content : 한 줄 사이즈 정도
+    textAllCaps = "false" 하면 소대문자 구분함-->
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="자동 로그인"/>
+<!--        android:checked="true"-->
+
 </LinearLayout>
